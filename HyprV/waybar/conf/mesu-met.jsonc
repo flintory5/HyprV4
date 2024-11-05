@@ -1,7 +1,8 @@
 {
     "clock": {
         "format": "{:%H:%M}",
-        "tooltip-format": "{: %A, %e %B %Y}"
+        "tooltip-format": "{:%Y-%m-%d %H:%M:%S}",
+        "interval": 1
     },
 
     "custom/weather": {

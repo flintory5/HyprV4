@@ -9,9 +9,14 @@
     "modules-left": [
         "custom/launch_wofi",
         "custom/launch_firefox",
-        "custom/launch_thunderbird",
+        "custom/launch_chrome",
+        // "custom/launch_thunderbird",
+        "custom/launch_gmail",
+        "custom/launch_google_calendar",
         "custom/launch_kitty",
-        "custom/launch_thunar"
+        "custom/launch_thunar",
+        "custom/launch_vscode",
+        "custom/launch_steam"
     ],
     "modules-center": ["wlr/taskbar"],
     "modules-right": ["custom/weather"],
@@ -23,6 +28,36 @@
     "custom/launch_firefox": {
         "format": "",
         "on-click": "firefox",
+        "tooltip": false
+    },
+
+    "custom/launch_steam": {
+        "format": "",
+        "on-click": "steam",
+        "tooltip": false
+    },
+
+    "custom/launch_chrome": {
+        "format": "󰏞",
+        "on-click": "google-chrome-stable",
+        "tooltip": false
+    },
+
+    "custom/launch_google_calendar": {
+        "format": "󰁕",
+        "on-click": "google-chrome-stable --app-id=kjbdgfilnfhdoflbpgamdcdgpehopbep",
+        "tooltip": false
+    },
+
+    "custom/launch_vscode": {
+        "format": "",
+        "on-click": "code",
+        "tooltip": false
+    },
+
+    "custom/launch_gmail": {
+        "format": "",
+        "on-click": "google-chrome-stable --app-id=fmgjjmmmlfnkbppncabfkddbjimcfncm",
         "tooltip": false
     },
 

@@ -13,7 +13,7 @@ window#waybar {
 }
 
 tooltip {
-    background: #e7e7ec;
+    background: #1e1e2e;
     opacity: 0.8;
     border-radius: 10px;
     border-width: 2px;
@@ -22,7 +22,7 @@ tooltip {
 }
 
 tooltip label{
-    color: #2b2b2c;
+    color: #cdd6f4;
 }
 
 #workspaces button {
@@ -46,6 +46,11 @@ tooltip label{
 #custom-launch_wofi,
 #custom-launch_firefox,
 #custom-launch_thunderbird,
+#custom-launch_google_calendar,
+#custom-launch_gmail,
+#custom-launch_vscode,
+#custom-launch_steam,
+#custom-launch_chrome,
 #custom-launch_thunar,
 #custom-launch_kitty,
 #custom-lock_screen,
@@ -69,7 +74,7 @@ tooltip label{
 #idle_inhibitor,
 #backlight {
     background: rgba(21, 18, 27, 0);
-    opacity: 0.8;
+    opacity: 1;
     padding: 0px 8px;
     margin: 0px 3px;
     border: 0px;
@@ -79,7 +84,6 @@ tooltip label{
     color: #e92d4d;
 }
 
-
 #workspaces {
     padding-right: 0px;
     padding-left: 5px;
@@ -87,12 +91,17 @@ tooltip label{
 
 #window {
     border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #custom-launch_firefox, 
 #custom-launch_thunderbird,
+#custom-launch_google_calendar,
+#custom-launch_gmail,
+#custom-launch_vscode,
+#custom-launch_steam,
+#custom-launch_chrome,
 #custom-launch_thunar,
 #custom-launch_wofi,
 #custom-launch_kitty,
