@@ -81,6 +81,7 @@ install_stage=(
     freerdp
     remmina
     visual-studio-code-bin
+    libreoffice-fresh
 )
 
 for str in ${myArray[@]}; do
